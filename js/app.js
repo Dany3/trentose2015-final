@@ -9,16 +9,25 @@ var SantaModel = {
    * and sets the first one as the current one 
    */
    init : function(list){
+       this.santas = requests;
+        console.log(this.requests);   
+    return this.santas;
+       
    },
   
    /* It moves "current" to the next request */
-   next : function (){
+   next : function (this.santas){
+       var i 
+       
+       return this.santas 
    },
   
    /* Returns the current request. 
     * If all requests have been processed (there is no current one), it returns null 
     */
    getCurrentRequest : function () {
+       
+       
    },  
     
    /* Packs the given item if it fulfills the current request.       
@@ -29,3 +38,20 @@ var SantaModel = {
    }      
   
 };
+
+var octopus = {
+
+
+};
+
+var SantaView = {
+
+ 
+    
+    init:function(){
+    
+    }
+    
+};
+
+
